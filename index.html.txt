@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kommal Tariq Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kommal Tariq Portfolio</h1>
+    <p>Sections: Programming | IoT & Embedded | Full-Stack & Design | AI/ML | Game Dev</p>
+</body>
+</html>
