@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Kommal Tariq Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Kommal Tariq Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Kommal Tariq Portfolio</h1>
-    <p>Sections: Programming | IoT & Embedded | Full-Stack & Design | AI/ML | Game Dev</p>
+    <header>
+        <h1>Kommal Tariq</h1>
+        <nav>
+            <a href="#programming">Programming</a>
+            <a href="#iot">IoT & Embedded</a>
+            <a href="#fullstack">Full-Stack & Design</a>
+            <a href="#ai">AI / ML / Data Science</a>
+            <a href="#game">Game Dev</a>
+        </nav>
+    </header>
+
+    <!-- Programming Section -->
+    <section id="programming">
+        <h2>Programming & Development</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Check Password & Quiz App</h3>
+                <p>MATLAB project: validate passwords & create a children's arithmetic quiz.</p>
+            </div>
+            <div class="future-projects">Future Projects Here</div>
+        </div>
+    </section>
+
+    <!-- IoT & Embedded Section -->
+    <section id="iot">
+        <h2>IoT & Embedded Systems</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Water Level Indicator</h3>
+                <p>LEDs & buzzer indicate water tank levels.</p>
+            </div>
+            <div class="future-projects">Future Projects Here</div>
+        </div>
+    </section>
+
+    <!-- Full-Stack & UI/UX Design Section -->
+    <section id="fullstack">
+        <h2>Full-Stack & UX/UI Design</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Take My Stuff App</h3>
+                <p>Mobile app with Firebase, Geolocation & Google Maps integration.</p>
+            </div>
+            <div class="future-projects">Future Projects Here</div>
+        </div>
+    </section>
+
+    <!-- AI / ML / Data Science Section -->
+    <section id="ai">
+        <h2>AI / ML / Data Science</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>AI Safety Gear Monitor</h3>
+                <p>Deep learning system detects safety equipment in photos in real-time.</p>
+            </div>
+            <div class="future-projects">Future Projects Here</div>
+        </div>
+    </section>
+
+    <!-- Game Development Section -->
+    <section id="game">
+        <h2>Game Development & Creative Tech</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Knight’s Tour Game</h3>
+                <p>Chessboard simulation showing AI pathfinding with animation.</p>
+            </div>
+            <div class="future-projects">Future Projects Here</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Kommal Tariq</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
